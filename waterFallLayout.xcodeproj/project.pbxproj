@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04170C832556622F00601350 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04170C812556622F00601350 /* CollectionViewCell.swift */; };
+		04170C842556622F00601350 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04170C822556622F00601350 /* CollectionViewCell.xib */; };
+		04170C8D2556979900601350 /* WaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04170C8C2556979900601350 /* WaterFallLayout.swift */; };
 		046DAAB425565DE900BA90BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DAAB325565DE900BA90BE /* AppDelegate.swift */; };
 		046DAAB625565DE900BA90BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DAAB525565DE900BA90BE /* SceneDelegate.swift */; };
 		046DAAB825565DE900BA90BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DAAB725565DE900BA90BE /* ViewController.swift */; };
 		046DAABB25565DE900BA90BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046DAAB925565DE900BA90BE /* Main.storyboard */; };
 		046DAABD25565DEC00BA90BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046DAABC25565DEC00BA90BE /* Assets.xcassets */; };
 		046DAAC025565DEC00BA90BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046DAABE25565DEC00BA90BE /* LaunchScreen.storyboard */; };
+		04C7BF53255948A7007AC59E /* layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BF52255948A7007AC59E /* layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04170C812556622F00601350 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		04170C822556622F00601350 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		04170C8C2556979900601350 /* WaterFallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallLayout.swift; sourceTree = "<group>"; };
 		046DAAB025565DE900BA90BE /* waterFallLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterFallLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046DAAB325565DE900BA90BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		046DAAB525565DE900BA90BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		046DAABC25565DEC00BA90BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046DAABF25565DEC00BA90BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046DAAC125565DEC00BA90BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C7BF52255948A7007AC59E /* layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				046DAAB325565DE900BA90BE /* AppDelegate.swift */,
 				046DAAB525565DE900BA90BE /* SceneDelegate.swift */,
 				046DAAB725565DE900BA90BE /* ViewController.swift */,
+				04C7BF52255948A7007AC59E /* layout.swift */,
 				046DAAB925565DE900BA90BE /* Main.storyboard */,
+				04170C812556622F00601350 /* CollectionViewCell.swift */,
+				04170C8C2556979900601350 /* WaterFallLayout.swift */,
+				04170C822556622F00601350 /* CollectionViewCell.xib */,
 				046DAABC25565DEC00BA90BE /* Assets.xcassets */,
 				046DAABE25565DEC00BA90BE /* LaunchScreen.storyboard */,
 				046DAAC125565DEC00BA90BE /* Info.plist */,
@@ -126,6 +138,7 @@
 			files = (
 				046DAAC025565DEC00BA90BE /* LaunchScreen.storyboard in Resources */,
 				046DAABD25565DEC00BA90BE /* Assets.xcassets in Resources */,
+				04170C842556622F00601350 /* CollectionViewCell.xib in Resources */,
 				046DAABB25565DE900BA90BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				046DAAB825565DE900BA90BE /* ViewController.swift in Sources */,
+				04170C8D2556979900601350 /* WaterFallLayout.swift in Sources */,
 				046DAAB425565DE900BA90BE /* AppDelegate.swift in Sources */,
+				04C7BF53255948A7007AC59E /* layout.swift in Sources */,
+				04170C832556622F00601350 /* CollectionViewCell.swift in Sources */,
 				046DAAB625565DE900BA90BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
